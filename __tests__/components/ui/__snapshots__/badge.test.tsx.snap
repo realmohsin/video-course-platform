@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge Component renders badge with custom className 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80 custom-class"
+>
+  Custom Badge
+</div>
+`;
+
+exports[`Badge Component renders badge with different variants: badge-variant-default 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80"
+>
+  Badge 
+  default
+</div>
+`;
+
+exports[`Badge Component renders badge with different variants: badge-variant-destructive 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80"
+>
+  Badge 
+  destructive
+</div>
+`;
+
+exports[`Badge Component renders badge with different variants: badge-variant-outline 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground"
+>
+  Badge 
+  outline
+</div>
+`;
+
+exports[`Badge Component renders badge with different variants: badge-variant-secondary 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
+>
+  Badge 
+  secondary
+</div>
+`;
+
+exports[`Badge Component renders badge with no text content 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80"
+/>
+`;
+
+exports[`Badge Component renders badge with number content 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80"
+>
+  42
+</div>
+`;
+
+exports[`Badge Component renders badge with special characters 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80"
+>
+  ⚠️ Error!
+</div>
+`;
+
+exports[`Badge Component renders default badge correctly 1`] = `
+<div
+  class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80"
+>
+  Default Badge
+</div>
+`;

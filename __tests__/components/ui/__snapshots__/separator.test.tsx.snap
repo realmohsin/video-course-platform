@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Separator Component renders horizontal separator correctly 1`] = `
+<div
+  class="shrink-0 bg-border h-[1px] w-full"
+  data-orientation="horizontal"
+  role="none"
+/>
+`;
+
+exports[`Separator Component renders separator with custom className 1`] = `
+<div
+  class="shrink-0 bg-border h-[1px] w-full custom-separator"
+  data-orientation="horizontal"
+  role="none"
+/>
+`;
+
+exports[`Separator Component renders separator with decorative false 1`] = `
+<div
+  class="shrink-0 bg-border h-[1px] w-full"
+  data-orientation="horizontal"
+  role="separator"
+/>
+`;
+
+exports[`Separator Component renders separator with different orientations: separator-horizontal 1`] = `
+<div
+  class="shrink-0 bg-border h-[1px] w-full"
+  data-orientation="horizontal"
+  role="none"
+/>
+`;
+
+exports[`Separator Component renders separator with different orientations: separator-vertical 1`] = `
+<div
+  class="shrink-0 bg-border h-full w-[1px]"
+  data-orientation="vertical"
+  role="none"
+/>
+`;
+
+exports[`Separator Component renders vertical separator correctly 1`] = `
+<div
+  class="shrink-0 bg-border h-full w-[1px]"
+  data-orientation="vertical"
+  role="none"
+/>
+`;
+
+exports[`Separator Component renders vertical separator with custom styling 1`] = `
+<div
+  class="shrink-0 bg-border w-[1px] h-20"
+  data-orientation="vertical"
+  role="none"
+/>
+`;

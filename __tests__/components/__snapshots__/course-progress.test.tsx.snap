@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseProgress Component renders completed course progress 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-emerald-700"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-0%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-emerald-700 text-sm"
+  >
+    100
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with combined variant and size 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-emerald-700"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-15%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-emerald-700 text-xs"
+  >
+    85
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with decimal values 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-66.3%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    34
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different sizes: course-progress-size-default 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-40%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    60
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different sizes: course-progress-size-sm 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-40%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-xs"
+  >
+    60
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different values: course-progress-value-0 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-100%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    0
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different values: course-progress-value-25 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-75%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    25
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different values: course-progress-value-50 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-50%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    50
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different values: course-progress-value-75 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-25%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    75
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different values: course-progress-value-100 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-0%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    100
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different variants: course-progress-variant-default 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-25%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    75
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders course progress with different variants: course-progress-variant-success 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-emerald-700"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-25%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-emerald-700 text-sm"
+  >
+    75
+    % Complete
+  </p>
+</div>
+`;
+
+exports[`CourseProgress Component renders default course progress correctly 1`] = `
+<div>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    class="relative w-full overflow-hidden rounded-full bg-secondary h-2"
+    data-max="100"
+    data-state="indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="h-full w-full flex-1 transition-all bg-sky-600"
+      data-max="100"
+      data-state="indeterminate"
+      style="transform: translateX(-50%);"
+    />
+  </div>
+  <p
+    class="font-medium mt-2 text-sky-700 text-sm"
+  >
+    50
+    % Complete
+  </p>
+</div>
+`;

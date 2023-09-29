@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress Component renders default progress correctly 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-50%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with custom className 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary custom-progress"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-40%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with decimal values 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-66.67%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with different values: progress-value-0 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-100%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with different values: progress-value-25 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-75%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with different values: progress-value-50 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-50%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with different values: progress-value-75 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-25%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with different values: progress-value-100 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-0%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with different variants: progress-variant-default 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-25%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with different variants: progress-variant-success 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-emerald-700"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-25%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with no value (undefined) 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-sky-600"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-100%);"
+  />
+</div>
+`;
+
+exports[`Progress Component renders progress with success variant at 100% 1`] = `
+<div
+  aria-valuemax="100"
+  aria-valuemin="0"
+  class="relative h-4 w-full overflow-hidden rounded-full bg-secondary"
+  data-max="100"
+  data-state="indeterminate"
+  role="progressbar"
+>
+  <div
+    class="h-full w-full flex-1 transition-all bg-emerald-700"
+    data-max="100"
+    data-state="indeterminate"
+    style="transform: translateX(-0%);"
+  />
+</div>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label Component renders basic label correctly 1`] = `
+<label
+  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+>
+  Basic Label
+</label>
+`;
+
+exports[`Label Component renders empty label 1`] = `
+<label
+  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+/>
+`;
+
+exports[`Label Component renders label with custom className 1`] = `
+<label
+  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 custom-label"
+>
+  Custom Label
+</label>
+`;
+
+exports[`Label Component renders label with different text content: label-text-0 1`] = `
+<label
+  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+>
+  Short
+</label>
+`;
+
+exports[`Label Component renders label with different text content: label-text-1 1`] = `
+<label
+  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+>
+  This is a longer label text
+</label>
+`;
+
+exports[`Label Component renders label with different text content: label-text-2 1`] = `
+<label
+  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+>
+  Required Field *
+</label>
+`;
+
+exports[`Label Component renders label with htmlFor attribute 1`] = `
+<label
+  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+  for="input-id"
+>
+  Label for input
+</label>
+`;
+
+exports[`Label Component renders label with special characters 1`] = `
+<label
+  class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+>
+  Email Address (required) *
+</label>
+`;

@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner Component renders banner with default variant when no variant specified 1`] = `
+<div
+  class="border text-center p-4 text-sm flex items-center w-full bg-yellow-200/80 border-yellow-30 text-primary"
+>
+  <svg
+    class="h-4 w-4 mr-2"
+    fill="none"
+    height="24"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"
+    />
+    <path
+      d="M12 9v4"
+    />
+    <path
+      d="M12 17h.01"
+    />
+  </svg>
+  Default banner message
+</div>
+`;
+
+exports[`Banner Component renders banner with long text content 1`] = `
+<div
+  class="border text-center p-4 text-sm flex items-center w-full bg-yellow-200/80 border-yellow-30 text-primary"
+>
+  <svg
+    class="h-4 w-4 mr-2"
+    fill="none"
+    height="24"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"
+    />
+    <path
+      d="M12 9v4"
+    />
+    <path
+      d="M12 17h.01"
+    />
+  </svg>
+  This is a very long banner message that should wrap properly and maintain its styling across multiple lines of text content.
+</div>
+`;
+
+exports[`Banner Component renders banner with special characters 1`] = `
+<div
+  class="border text-center p-4 text-sm flex items-center w-full bg-emerald-700 border-emerald-800 text-secondary"
+>
+  <svg
+    class="h-4 w-4 mr-2"
+    fill="none"
+    height="24"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+    />
+    <polyline
+      points="22 4 12 14.01 9 11.01"
+    />
+  </svg>
+  Special chars: !@#$%^&*()_+
+</div>
+`;
+
+exports[`Banner Component renders success banner correctly 1`] = `
+<div
+  class="border text-center p-4 text-sm flex items-center w-full bg-emerald-700 border-emerald-800 text-secondary"
+>
+  <svg
+    class="h-4 w-4 mr-2"
+    fill="none"
+    height="24"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+    />
+    <polyline
+      points="22 4 12 14.01 9 11.01"
+    />
+  </svg>
+  This is a success message
+</div>
+`;
+
+exports[`Banner Component renders warning banner correctly 1`] = `
+<div
+  class="border text-center p-4 text-sm flex items-center w-full bg-yellow-200/80 border-yellow-30 text-primary"
+>
+  <svg
+    class="h-4 w-4 mr-2"
+    fill="none"
+    height="24"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"
+    />
+    <path
+      d="M12 9v4"
+    />
+    <path
+      d="M12 17h.01"
+    />
+  </svg>
+  This is a warning message
+</div>
+`;
