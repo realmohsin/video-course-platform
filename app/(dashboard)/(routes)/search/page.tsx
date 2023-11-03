@@ -30,6 +30,18 @@ const SearchPage = async ({
     }
   });
 
+  // On a fresh landing (no category or search applied yet), default the
+  // selected category to Computer Science.
+  if (!searchParams.categoryId && !searchParams.title) {
+    const defaultCategory = categories.find(
+      (category) => category.name === "Computer Science"
+    );
+
+    if (defaultCategory) {
+      return redirect(`/search?categoryId=${defaultCategory.id}`);
+    }
+  }
+
   const courses = await getCourses({
     userId,
     ...searchParams,

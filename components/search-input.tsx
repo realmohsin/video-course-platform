@@ -9,14 +9,15 @@ import { Input } from "@/components/ui/input";
 import { useDebounce } from "@/hooks/use-debounce";
 
 export const SearchInput = () => {
-  const [value, setValue] = useState("")
-  const debouncedValue = useDebounce(value);
-
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
 
   const currentCategoryId = searchParams.get("categoryId");
+  const currentTitle = searchParams.get("title");
+
+  const [value, setValue] = useState(currentTitle || "");
+  const debouncedValue = useDebounce(value, 300);
 
   useEffect(() => {
     const url = qs.stringifyUrl({
@@ -28,7 +29,13 @@ export const SearchInput = () => {
     }, { skipEmptyString: true, skipNull: true });
 
     router.push(url);
-  }, [debouncedValue, currentCategoryId, router, pathname])
+    // Intentionally only re-run when the debounced search text changes.
+    // Reacting to category changes here makes this push fire on every
+    // category switch - and because a second (responsive) copy of this
+    // input is always mounted with an empty value, that extra push wipes
+    // the active title. Category changes already preserve the title.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [debouncedValue])
 
   return (
     <div className="relative">
