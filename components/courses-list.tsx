@@ -10,10 +10,12 @@ type CourseWithProgressWithCategory = Course & {
 
 interface CoursesListProps {
   items: CourseWithProgressWithCategory[];
+  emptyMessage?: string;
 }
 
 export const CoursesList = ({
-  items
+  items,
+  emptyMessage = "No courses found",
 }: CoursesListProps) => {
   return (
     <div>
@@ -33,7 +35,7 @@ export const CoursesList = ({
       </div>
       {items.length === 0 && (
         <div className="text-center text-sm text-muted-foreground mt-10">
-          No courses found
+          {emptyMessage}
         </div>
       )}
     </div>

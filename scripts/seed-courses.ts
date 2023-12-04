@@ -1,3 +1,5 @@
+export {};
+
 const { PrismaClient } = require("@prisma/client");
 
 const database = new PrismaClient();
@@ -25,14 +27,7 @@ function muxVideoFields() {
   };
 }
 
-type SeedCourse = {
-  title: string;
-  description: string;
-  price: number;
-  chapters: string[];
-};
-
-const COURSES_BY_CATEGORY: Record<string, SeedCourse[]> = {
+const COURSES_BY_CATEGORY = {
   "Computer Science": [
     {
       title: "JavaScript Fundamentals",
@@ -321,7 +316,7 @@ const OUTRO_POOL = [
   "Where to Go From Here",
 ];
 
-function randInt(min: number, max: number): number {
+function randInt(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -341,12 +336,12 @@ function pickSome<T>(pool: T[], count: number): T[] {
 // Build a realistic, varied curriculum (8-12 lessons) around a course's
 // core topical chapters: intro lessons, the core topics (occasionally with a
 // deeper follow-up), some practice/lab lessons, and a wrap-up.
-function generateChapters(coreTopics: string[]): string[] {
+function generateChapters(coreTopics: string[]) {
   const target = randInt(8, 12);
   const intro = pickSome(INTRO_POOL, randInt(1, 2));
   const outro = pickSome(OUTRO_POOL, randInt(1, 2));
 
-  const core: string[] = [];
+  const core = [];
   for (const topic of coreTopics) {
     core.push(topic);
     if (Math.random() < 0.35) {
@@ -359,7 +354,7 @@ function generateChapters(coreTopics: string[]): string[] {
     }
   }
 
-  const practice: string[] = [];
+  const practice = [];
   const practicePool = shuffle(PRACTICE_POOL);
   let needed = target - intro.length - core.length - outro.length;
   let poolIndex = 0;
@@ -393,7 +388,7 @@ async function main() {
     await database.course.deleteMany({ where: { userId: SEED_USER_ID } });
 
     const categories = await database.category.findMany();
-    const categoryByName = new Map<string, string>(
+    const categoryByName = new Map(
       categories.map((c: { name: string; id: string }) => [c.name, c.id])
     );
 
